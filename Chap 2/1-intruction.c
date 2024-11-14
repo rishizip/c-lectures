@@ -39,5 +39,8 @@ int main()
     double power = pow(d, e);
     printf("Power: %.2f\n", power);
 
+    // remainder
+    int modul = d % e;
+    printf("Quotient: %d\n",modul);
 return 0;
 }
