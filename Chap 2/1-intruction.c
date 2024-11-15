@@ -53,5 +53,8 @@ int main()
     // associativity -> left to right
     int y = 4 * 3 / 6 * 2;
     printf("ans = %d\n",x);
+
+    // control instructions
+    // a) sequence, b) decision, c) loop, d) case
 return 0;
 }
