@@ -42,5 +42,12 @@ int main()
     // remainder
     int modul = d % e;
     printf("Quotient: %d\n",modul);
+
+        // operator precedence
+    // *,/,% -> +,-, -> =
+    int x;
+    x = 4 + 9 * 10 ;
+    printf("ans = %d",x);
+
 return 0;
 }

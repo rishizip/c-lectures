@@ -9,10 +9,4 @@ int main()
     // explicit -> done by us
     int a = (int) 99.99;
     printf("%d \n",a);
-
-    // operator precedence
-    // *,/,% -> +,-, -> =
-    int x;
-    x = 4 + 9 * 10 ;
-    printf("ans = %d",x);
 }
