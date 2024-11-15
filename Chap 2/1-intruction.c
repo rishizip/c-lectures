@@ -21,33 +21,37 @@ int main()
 
     // Addition
     int sum = d + e;
-    printf("Sum: %d\n", sum);
+    printf("Sum = %d\n", sum);
 
     // Subtraction
     int difference = d - e;
-    printf("Difference: %d\n", difference);
+    printf("Difference = %d\n", difference);
 
     // Multiplication
     int product = d * e;
-    printf("Product: %d\n", product);
+    printf("Product = %d\n", product);
 
     // Division
     int quotient = d / e;
-    printf("Quotient: %d\n", quotient);
+    printf("Quotient = %d\n", quotient);
 
     // Exponentiation
     double power = pow(d, e);
-    printf("Power: %.2f\n", power);
+    printf("Power = %.2f\n", power);
 
     // remainder
     int modul = d % e;
-    printf("Quotient: %d\n",modul);
+    printf("Quotient = %d\n",modul);
 
         // operator precedence
     // *,/,% -> +,-, -> =
     int x;
     x = 4 + 9 * 10 ;
-    printf("ans = %d",x);
+    printf("ans = %d\n",x);
 
+    // for same precidence
+    // associativity -> left to right
+    int y = 4 * 3 / 6 * 2;
+    printf("ans = %d\n",x);
 return 0;
 }
