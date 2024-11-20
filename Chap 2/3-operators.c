@@ -25,19 +25,24 @@ int main()
 
 // c) Logical
 
-    int a,b;
-    printf("Enter 1st number : ");
-    scanf("%d",&a);
-    printf("Enter 2nd number : ");
-    scanf("%d",&b);
-    printf("and = %d\n",(a > 100)&&(b > 100));
-    printf("or = %d\n",(a > 100)&&(b > 100));
-    printf("not = %d\n",!(a>100));
+    // int a,b;
+    // printf("Enter 1st number : ");
+    // scanf("%d",&a);
+    // printf("Enter 2nd number : ");
+    // scanf("%d",&b);
+    // printf("and = %d\n",(a > 100)&&(b > 100));
+    // printf("or = %d\n",(a > 100)&&(b > 100));
+    // printf("not = %d\n",!(a>100));
 
     
 // d) Bitwise
 
-// e) Assignment
+// e) Assignment (=, +=, -+, *=, /=)
+// shorthand operator
+
+int k = 1;
+k += 1;
+printf("ans = %d",k);
 
 // f) Ternary
 
