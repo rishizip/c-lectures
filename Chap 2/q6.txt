@@ -1,0 +1,13 @@
+Q. Are the following valid or not in c
+
+a. int a = 8^8
+ans = no
+
+b. int x; int y = x;
+ans = yes
+
+c. int x,y = x
+ans = no
+
+d. char stars = '**'
+ans = yes
