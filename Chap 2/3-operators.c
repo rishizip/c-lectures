@@ -40,11 +40,16 @@ int main()
 // e) Assignment (=, +=, -+, *=, /=)
 // shorthand operator
 
-int k = 1;
-k += 1;
-printf("ans = %d",k);
+// int k = 1;
+// k += 1;
+// printf("ans = %d",k);
 
 // f) Ternary
+int age;
+printf("Enter your age : ");
+scanf("%d",&age);
+
+age >= 18 ? printf("you arwe adult\n") : printf("you are not adult\n");
 
 return 0;
 }
