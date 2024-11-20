@@ -16,8 +16,11 @@ int main()
     printf("Enter your age : ");
     scanf("%d",&age);
 
-    if (age>=18){
-        printf("adult\ncan drive\ncan vote\n");
+    if (age>18){
+        printf("you are adult\nyou can drive\n you can vote\n");
+    }
+    else if (age = 18){
+        printf("you are teenager\nmake a driving license\nmake a voter id");
     }
     else{
         printf("not adult");
