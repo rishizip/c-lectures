@@ -3,3 +3,6 @@ i++ and i--
 
 pre-increment
 ++i and --i
+
+break - exist the loop
+continue - skip that step
