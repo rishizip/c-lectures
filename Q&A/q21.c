@@ -1,13 +1,11 @@
 // waf that print Namaste for Indian and Bonjour for French
 #include<stdio.h>
-int Indian(){
+void Indian(){
     printf("Namaste\n");
-    return 0;
 }
 
-int French(){
+void French(){
     printf("Bonjour\n");
-    return 0;
 }
 
 int main(){
