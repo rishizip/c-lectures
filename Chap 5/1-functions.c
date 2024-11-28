@@ -14,11 +14,10 @@ int main() {
     printf("Enter 2nd number : ");
     scanf("%d", &num2);
 
-    printMenu();
+    printMenu(); // func^n call
     printf("Enter choice : ");
-    scanf(" %c", &choice); // Note the space before %c
-
-    performOperation(num1, num2, choice);
+    scanf(" %c", &choice);
+    performOperation(num1, num2, choice); // func^n call
 
     return 0;
 }
