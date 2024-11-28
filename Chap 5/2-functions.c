@@ -13,13 +13,13 @@ int main()
     printf("sum = %d\n",s);
     printf("Enter a No. : ");
     scanf("%d",&n);
-    multable(n);
+    multable(n); // argument or actual parameter
     return 0;
 }
 int sum(int a, int b){ // func^n declaration
 return a + b;
 }
-void multable(int n){
+void multable(int n){ // parameter or formal parameter
     for (int i=1; i<=10; i++){
        printf("%d x %d = %d\n", n,i,n*i);
     }
