@@ -1,6 +1,7 @@
+// marks of student
 #include<stdio.h>
 int main(){
-    int marks[2];
+    int marks[3];
     printf("Enter Phy marks : ");
     scanf("%d",&marks[0]);
     printf("Enter Chem marks : ");
